@@ -1,0 +1,23 @@
+{
+  "name": "ripeto-coreobj",
+  "description": "Reapeat core object.",
+  "homepage": "https://github.com/krambuhl/ripeto-coreobj",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape tests/*.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:krambuhl/ripeto-coreobj.git"
+  },
+  "devDependencies": {
+    "tap-spec": "^2.1.2",
+    "tape": "^3.0.3"
+  },
+  "dependencies": {
+    "event-emitter": "^0.3.3",
+    "inherits": "^2.0.1",
+    "simpler-extend": "^1.1.0"
+  }
+}
